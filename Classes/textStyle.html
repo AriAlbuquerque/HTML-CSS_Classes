@@ -2,6 +2,10 @@
         HTML Structuring:
         HTML Entity: ckeckmark: &#10003;
         HTML Entity: middle dot: &#183;
+        HTML Entity: greater than > : &#62;
+        Style  separated elements in HTML <p>: <p class="test">
+  Testing text-decoration: Ariane, <strong> ANE,</strong>  <span class="span-example">Ariane</span>, <u>ARIANE</u>.
+</p>
 
 -->
 
@@ -23,27 +27,40 @@
   Google's CEO. Shoutout to Sundar!
 </p>
 
+<p class="appletext">
+  
+  Shop early for the best selection of holiday favourites.<span class="shop-link"> Shop now &#62;</span> 
+</p>
 
 
-
-
-
-
+<p class="test">
+  Testing text-decoration: <u>Ariane</u>, <strong> Ariane,</strong> <span class="span-example">Ariane</span>.
+</p>
 
 
 
 <!-- CSS Style: 
-/*  font-family: Arial; to use de same family for one tag use the tag,
-like:
+/*  font-family: Arial; to use the same font-family, for one [tag] use a tag, like:
+
   p {
     font-family: Arial;
     margin-top: 0;
     margin-bottom: 0;
   }
     font-size: 30px;
-    font-weight: bold;
+    font-weight: bold;   * negrito
     font-style: italic;
-    text-align: center; */
+    text-align: center; 
+
+    Paragraph style:  
+    <style>
+
+  .span-example {
+    color: #e34140;
+  }
+  .span-example:hover {
+    text-decoration: underline;
+    */
   -->
 <style>
 
@@ -52,6 +69,14 @@ like:
     margin-top: 0;
     margin-bottom: 0;
   }
+  .span-example {
+    color: #e34140;
+    margin-left: 12px;
+  }
+  .span-example:hover {
+    text-decoration: underline;
+  }
+
   .video-title {
     font-weight: bold;
     font-size: 18px;
@@ -77,7 +102,25 @@ like:
     color:  rgb(96, 96, 96); 
     width: 280px;
     line-height: 22px;
+    margin-bottom: 100px;
   
+  }
+  .appletext {
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: #e34140;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: white;
+    text-align: center;
+    
+    
+  }
+  .shop-link {
+    cursor: pointer;
+  }
+  .shop-link:hover {
+    text-decoration: underline;
   }
 
 
