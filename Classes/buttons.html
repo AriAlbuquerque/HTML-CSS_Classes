@@ -1,339 +1,53 @@
 <!-- HTML STRUCTURE: to create buttons in HTML, use <button> button's name </button>;
   To create a style for each button, use classes: <button class="name-button"> and create the style in CSS; -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buttons Styles</title>
+  <link rel="stylesheet" href="styles/buttons.css">
+</head>
+<body>
 
-<button class="subscribe-button">
-  SUBSCRIBE
-</button>
-
-<button class="join-button">
-  JOIN
-</button>
-
-<button class="tweet-button">
-  Tweet
-</button>
-
-<button class="request-button">
-  Request now
-</button>
-
-<button class="add-to-cart">
-  Add to Cart
-</button>
-
-<button class="sing-up">
-  Sing up
-</button>
-
-<button class="get-started">
-  Get started
-</button>
-
-<button class="dowload-button">
-  Download
-</button>
-
-<button class="apply-website">
-  Apply on company website
-</button>
-
-<button class="save-button">
-  Save
-</button>
-
-<!-- Creating diferents buttons styles -->
-
-
-<!-- CSS Style: to create a CSS style use: 
-  * Class, for diferents styles for a same tag; like <button>
-Use the class like: .name-button {...}; 
-Pseudo-classes are selectors that allow applying styles to elements in specific states or with particular characteristics. 
-They are used to select elements that cannot be selected solely with type, class, or ID selectors.
-   
-*Some common examples of pseudo-classes are:
-
-:hover: Selects an element when the mouse cursor is over it.
-:active: Selects an element when it is being clicked or activated by the user.
-:visited: Selects links that have been visited by the user.
-:first-child: Selects the first child element of a parent element.
-:nth-child(n): Selects the nth child element of a parent element based on its position, where "n" is a number or a formula.
-:focus: Selects an element that is in focus, commonly used in form fields.
--->
-<style>
-
-  /* SUBSCRIBE BUTTON */
-
-    .subscribe-button {
-    background-color: rgba(212, 8, 8, 0.947);
-    color: white;
-    border: none;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right: 8px;
-    margin-left: 20px;
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    vertical-align: top;
-
-    transition: opacity 0.15s;
-   }
-   /* HOVER: The pseudo-class selector that allows applying styles to an element when the mouse cursor is PLACED OVER IT.*/
-  .subscribe-button:hover {  
-    opacity: 0.5;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
-  }
-  /* A pseudo-class selector that allows applying styles to an element while it is being ACTIVATED or CLICKED by the user. */
-  .subscribe-button:active {
-    opacity: 0.5;
-  }
-
-/*    JOIN BUTTON */
-
-  .join-button {
-    background-color: white;
-    border-color: rgb(06, 95, 212);
-    border-style: solid;
-    border-width: 1px;
-    color:  rgb(06, 95, 212);
-    font-size: 14px; 
-    font-weight: 18px;
-    cursor: pointer;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 16px;
-    padding-right: 16px;
-    vertical-align: top;
-    
-    transition: background-color 0.15s,
-      color 0.15s;
-  }
-  .join-button:hover {
-    background-color: rgb(06, 95, 212);
-    color: white;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
-  }
-  .join-button:active {
-    opacity: 0.7;
-  }
-
-  /* TWEET BUTTON */
-
-  .tweet-button {
-    background-color: rgb(2, 137, 255);
-    color: white;
-    border: none;
-    border-radius: 18px;
-    font-weight: 10px;
-    font-size: 15px;
-    cursor: pointer;
-    margin-left: 8px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 16px;
-    padding-right: 16px;
-    vertical-align: top;
-
-    transition: box-shadow 0.15s;
-  }
-  .tweet-button:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
-  }
-  .tweet-button:active {
-    opacity: 0.7;
-  }
-
-  /* REQUEST BUTTON */
-
-  .request-button {
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    margin-left: 8px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 16px;
-    padding-right: 16px;
-    vertical-align: top;
-    
-    transition: box-shadow 0.15s;
-  }
-  .request-button:hover {
-    opacity: 0.5;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
-  }
-  .request-button:active {
-    background-color: rgb(17, 3, 32);
-  }
-
-  /* "AMAZON BUTTON" ADD TO CART */
-
-  .add-to-cart {
-    background-color: rgb(255, 216, 20);
-    color: black;
-    font-size: 16px;
-    border: none;
-    border-radius: 18px;
-    margin-left: 8px;
-    cursor: pointer;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 16px;
-    padding-right: 16px;
-    vertical-align: top;
-    
-    transition: box-shadow 0.15s;
-  }
-  .add-to-cart:hover {
-    opacity: 0.5;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
-  }
-  .add-to-cart:active {
-    background-color: rgb(206, 159, 6);
-    ;
-  }
-
-  /* SING-UP BUTTON */
-
-  .sing-up {
-    background: rgb(46, 164, 79);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    margin-left: 8px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 16px;
-    padding-right: 16px;
-    vertical-align: top;
-    cursor: pointer;
-
-    transition: box-shadow 0.15;
-  }
-  .sing-up:hover {
-    opacity: 0.5;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
-  }
-  .sing-up:active {
-    background-color: rgb(126, 233, 126);
-  }
-
-  /* GET-START BUTTON */
-
-  .get-started {
-    background-color: rgb(121, 82, 179);
-    color: white;
-    border-radius: 5px;
-    border: none;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 16px;
-    padding-right: 16px;
-    font-size: 14px;
-    font-weight: 15px;
-    margin-left: 8px;
-    vertical-align: top;
-    cursor: pointer;
-
-    transition: box-shadow 0.15s;
-  }
-  .get-started:hover {
-    opacity: 0.5;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
-  }
-  .get-started:active {
-    background-color: rgb(122, 70, 126);
-  }
-
-  /* DOWNLOAD BUTTON */
-
-  .dowload-button {
-    background-color: white;
-    color: black;
-    border-radius: 3px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 16px;
-    padding-right: 16px;
-    vertical-align: top;
-    margin-left: 8px;
-    font-size: 16px;
-    cursor: pointer;
-
-    transition: box-shadow 0.15s;
-  }
-  .dowload-button:hover {
-    opacity: 0.5;
-    background-color: black;
-    color: white;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
-  }
-  .dowload-button:active {
-  background-color: rgb(2, 2, 35);
-  }
-
-  /*APPLY ON COMPANY WEBSITE BUTTON */
-
-  .apply-website {
-    background-color: rgb(10, 102, 194);
-    color: white;
-    border-radius: 20px;
-    border: none;
-    font-size: 14px;
-    font-weight: bold;
-    vertical-align: top;
-    margin-left: 8px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 16px;
-    padding-right: 16px;
-    cursor: pointer;
-
-    transition: box-shadow 0.15s;
-    
-  }
-  .apply-website:hover {
-    opacity: 0.5;
-    color: black;
-    background-color: rgb(73, 129, 234);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
-  }
-  .apply-website:active {
-    background-color: cornflowerblue;
-  }
-
-  /* SAVE BUTTON */
-
-  .save-button {
-    background-color: white;
-    color: rgb(10, 102, 194);
-    border-color: rgb(10, 102, 194);
-    border-radius: 20px;
-    border-style: solid;
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 8px;
-    vertical-align: top;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 16px;
-    padding-right: 16px;
-    cursor: pointer;
-    
-    transition: box-shadow 0.15s;
-
-  }
-  .save-button:hover {
-    opacity: 0.5;
-    background-color: blue;
-    color: white;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.50);
-  }
-  .save-button:active {
-    background-color: rgb(0, 34, 255);
-  }
-
-  /* Closing CSS style tag;  */
-</style>
-
+  <button class="subscribe-button">
+    SUBSCRIBE
+  </button>
+  
+  <button class="join-button">
+    JOIN
+  </button>
+  
+  <button class="tweet-button">
+    Tweet
+  </button>
+  
+  <button class="request-button">
+    Request now
+  </button>
+  
+  <button class="add-to-cart">
+    Add to Cart
+  </button>
+  
+  <button class="sing-up">
+    Sing up
+  </button>
+  
+  <button class="get-started">
+    Get started
+  </button>
+  
+  <button class="dowload-button">
+    Download
+  </button>
+  
+  <button class="apply-website">
+    Apply on company website
+  </button>
+  
+  <button class="save-button">
+    Save
+  </button>
+  
+  
+</body>
+</html>

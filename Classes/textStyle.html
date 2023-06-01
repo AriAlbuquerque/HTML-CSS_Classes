@@ -1,4 +1,4 @@
-<!-- Creating diferents text style:
+<!-- Creating diferents text styles using Classes: <p class="video-title">
         HTML Structuring:
         HTML Entity: ckeckmark: &#10003;
         HTML Entity: middle dot: &#183;
@@ -6,40 +6,7 @@
         Style  separated elements in HTML <p>: <p class="test">
   Testing text-decoration: Ariane, <strong> ANE,</strong>  <span class="span-example">Ariane</span>, <u>ARIANE</u>.
 </p>
-
--->
-
-<p class="video-title">
-  Talking Tech and AI with Google CEO Sundar Pichai!
-</p>
-
-<p class="video-stats">
-  3.4M views &#183; 6 months ago
-</p>
-
-<p class="video-author">
-  Marques Brownlee &#10003;
-</p>
-
-<p class="video-description">
-  Talking tech and AI on the heels of Google
-  I/O. Also a daily driver phone reveal from
-  Google's CEO. Shoutout to Sundar!
-</p>
-
-<p class="appletext">
-  
-  Shop early for the best selection of holiday favourites.<span class="shop-link"> Shop now &#62;</span> 
-</p>
-
-
-<p class="test">
-  Testing text-decoration: <u>Ariane</u>, <strong> Ariane,</strong> <span class="span-example">Ariane</span>.
-</p>
-
-
-
-<!-- CSS Style: 
+ *** CSS Style: 
 /*  font-family: Arial; to use the same font-family, for one [tag] use a tag, like:
 
   p {
@@ -47,11 +14,12 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-    font-size: 30px;
+  .class{  
+  font-size: 30px;
     font-weight: bold;   * negrito
     font-style: italic;
     text-align: center; 
-
+  }
     Paragraph style:  
     <style>
 
@@ -62,6 +30,11 @@
     text-decoration: underline;
     */
   -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>html test text styles</title>
 <style>
 
   p {
@@ -122,7 +95,41 @@
   .shop-link:hover {
     text-decoration: underline;
   }
-
-
 </style>
+  </head>
+  <body>
+    <p class="video-title">
+      Talking Tech and AI with Google CEO Sundar Pichai!
+    </p>
+    
+    <p class="video-stats">
+      3.4M views &#183; 6 months ago
+    </p>
+    
+    <p class="video-author">
+      Marques Brownlee &#10003;
+    </p>
+    
+    <p class="video-description">
+      Talking tech and AI on the heels of Google
+      I/O. Also a daily driver phone reveal from
+      Google's CEO. Shoutout to Sundar!
+    </p>
+    
+    <p class="appletext">
+      
+      Shop early for the best selection of holiday favourites.<span class="shop-link"> Shop now &#62;</span> 
+    </p>
+    
+    
+    <p class="test">
+      Testing text-decoration: <u>Ariane</u>, <strong> Ariane,</strong> <span class="span-example">Ariane</span>.
+    </p>
+    
+    
+  </body>
+
+</html>
+
+
 

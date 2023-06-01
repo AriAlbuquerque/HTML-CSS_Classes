@@ -1,0 +1,70 @@
+ p {
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 28px;
+    text-align: center;
+    line-height: 35px;
+ 
+  }
+  .new-orange{
+    color: orangered;
+    font-size: 16px;
+    
+  }
+.macBook {
+  font-weight: bold;
+  font-size: 25px;
+  padding-bottom: 50px;
+}
+.for-pros {
+  
+  font-size: 35px;
+  font-weight: bold;
+}
+.price1 {
+  font-size: 17px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.buy-button {
+
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 14px;
+   margin-bottom: 50px;
+    vertical-align: top;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+  }
+.price {
+  font-size: 40px;
+  text-align: left;
+}
+.usd {
+  color: gray;
+}
+.value-today {
+  color: green;
+  font-size: 20px;
+  text-align: left;
+}
+.after-hours {
+  font-size: 15px;
+
+}
+.porcent-red {
+  color: red;
+  margin-bottom: 130px;
+}
+.freeCode {
+  color: gray;
+}
+.chip-blue {
+  color: blue;
+}
