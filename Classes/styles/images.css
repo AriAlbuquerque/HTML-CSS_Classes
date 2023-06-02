@@ -107,9 +107,8 @@ margin-right: 5px;
 
 .text-box {
 font-size: 18px;
-border-color: rgba(9, 8, 8, 0.685);
+border: none;
 width: 300px;
-margin-top: 10px;
 vertical-align: center;
 
 }
