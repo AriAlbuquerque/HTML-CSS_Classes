@@ -1,0 +1,39 @@
+.name,
+.email {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.paragraph1 {
+  width: 200px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.yes,
+.no {
+  border-radius: 3px;
+  border-color: black;
+  background-color: rgb(218, 216, 216);
+}
+.google-logo {
+  width: 200px;
+  display: block;
+  margin-bottom: 8px;
+  margin-left: 150px;
+  
+
+}
+  .google-bar {
+font-size: 16px;
+width: 500px;
+border: none;
+padding-top: 12px;
+padding-bottom: 12px;
+padding-left: 15px;
+padding-right: 15px;
+border-radius: 30px;
+box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+margin-top: 20px;
+margin-left: 20px;
+
+  }
